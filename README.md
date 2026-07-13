@@ -1,5 +1,7 @@
 # 🇯🇵 Japan vs. Spain 🇪🇸 | World Cup 2022 Advanced Tactical Analytics
 
+🚀 Pioneer Project: This was my foundational project in sports analytics, built to master StatsBomb's event-data pipeline, spatial coordinate mapping, and mathematical threat indexing (xT).
+
 An simple and first sports analytics project evaluating one of the most statistically fascinating matches in FIFA World Cup history: Japan's 2-1 victory over Spain in 2022. Using Python, **StatsBomb's Open Data**, and **mplsoccer**, this repository builds data-driven pipelines to explore the extreme tactical clash between ultra-efficient low-block transitions and high-volume positional possession (Tiki-Taka).
 
 ---
