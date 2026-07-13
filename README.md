@@ -12,7 +12,7 @@ This visualization splits the pitch to display each team's shooting efficiency. 
 *   **Circles:** Saved, missed, or post-striking shots.
 *   **Triangles:** Shots physically blocked by the opponent's defensive wall.
 
-![Shot Map](output/shot_map.png)
+![Shot Map](https://raw.githubusercontent.com/CrisM71/Football-Analytics/main/output/shot_map.png)
 
 *   **Tactical Insight:** Spain dominated raw shot volume (12 vs. 6) but struggled with shot quality due to Japan's compact spatial control. Spain's map is crowded with **blocked triangles**, leading to a low average xG per shot (0.07). Conversely, Japan's structured counter-attacks created highly optimized finishing angles, yielding a massive 0.19 average xG per shot and scoring two goals from just 1.16 total xG.
 
