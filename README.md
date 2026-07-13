@@ -1,18 +1,18 @@
 # 🇯🇵 Japan vs. Spain 🇪🇸 | World Cup 2022 Advanced Tactical Analytics
 
-An elite sports analytics project evaluating one of the most statistically fascinating matches in FIFA World Cup history: Japan's 2-1 victory over Spain in 2022. Using Python, **StatsBomb's Open Data**, and **mplsoccer**, this repository builds data-driven pipelines to explore the extreme tactical clash between ultra-efficient low-block transitions and high-volume positional possession (Tiki-Taka).
+An simple and first sports analytics project evaluating one of the most statistically fascinating matches in FIFA World Cup history: Japan's 2-1 victory over Spain in 2022. Using Python, **StatsBomb's Open Data**, and **mplsoccer**, this repository builds data-driven pipelines to explore the extreme tactical clash between ultra-efficient low-block transitions and high-volume positional possession (Tiki-Taka).
 
 ---
 
 ## 📊 Visual Insights & Mathematical Models
 
-### 1. Advanced Shot Map (Contextual xG)
+### 1. Shot Map (Contextual xG)
 This visualization splits the pitch to display each team's shooting efficiency. Instead of generic markers, this pipeline categorizes attempts by their physical outcome to expose defensive density:
 *   **Stars:** Successful goals.
 *   **Circles:** Saved, missed, or post-striking shots.
 *   **Triangles:** Shots physically blocked by the opponent's defensive wall.
 
-![Advanced Shot Map](output/shot_map.png)
+![Shot Map](output/shot_map.png)
 
 *   **Tactical Insight:** Spain dominated raw shot volume (12 vs. 6) but struggled with shot quality due to Japan's compact spatial control. Spain's map is crowded with **blocked triangles**, leading to a low average xG per shot (0.07). Conversely, Japan's structured counter-attacks created highly optimized finishing angles, yielding a massive 0.19 average xG per shot and scoring two goals from just 1.16 total xG.
 
