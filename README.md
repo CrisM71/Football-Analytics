@@ -12,7 +12,7 @@ This visualization splits the pitch to display each team's shooting efficiency. 
 *   **Circles:** Saved, missed, or post-striking shots.
 *   **Triangles:** Shots physically blocked by the opponent's defensive wall.
 
-![Shot Map](https://raw.githubusercontent.com/CrisM17/Football-Analytics/main/output/shot_map.png?v=1)
+![Shot Map](output/shot_map.png)
 
 *   **Tactical Insight:** Spain dominated raw shot volume (12 vs. 6) but struggled with shot quality due to Japan's compact spatial control. Spain's map is crowded with **blocked triangles**, leading to a low average xG per shot (0.07). Conversely, Japan's structured counter-attacks created highly optimized finishing angles, yielding a massive 0.19 average xG per shot and scoring two goals from just 1.16 total xG.
 
@@ -23,7 +23,7 @@ This model integrates **Karun Singh's original 12x8 Expected Threat (xT) spatial
 *   **Node Size:** Scales dynamically based on the player's **Cumulative xT** (real threat generated via progressive actions), rather than raw passing volume.
 *   **Line Weight & Opacity:** The width represents pass frequency, while the brightness/opacity highlights the **Threat Delta ($\Delta xT$)** of the combination.
 
-![Pass Network and xT](https://raw.githubusercontent.com/CrisM17/Football-Analytics/main/output/pass_network.png?v=1)
+![Pass Network and xT](output/pass_network.png)
 
 *   **Tactical Insight:** Spain’s network forms a suffocatingly dense web of short, horizontal circulation around the midfield line with low xT generation per pass. Japan’s network exposes a deep, resilient defensive diamond. Their front line remains entirely isolated from short-passing build-up, mathematically validating a pure, direct vertical transition framework.
 
